@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Object basics: Task 2</title>
+    <style>
+        p {
+            color: black;
+            font-weight: bold;
+            position: absolute;
+            top: 50px;
+            font-size: 20px;
+            margin-left: 5px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        img {
+            height: 100vh;
+            width: 100vw;
+            opacity: 0.4;
+            filter: alpha(opacity=40);
+            background-size: cover;
+            position: relative;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <section class="preview">
+
+        <img src="141_logo.png" alt="logo Death">
+
+    </section>
+
+</body>
+<script>
+
+    // Add your code here
+
+    let favoriteBand = {
+        name: 'Death',
+        nationality: 'United States',
+        genre: 'Death Metal',
+        members: 4,
+        formed: 1983,
+        split: 2001,
+        albums: [
+            {
+                name: 'Scream Bloody Gore', released: 1987
+            },
+            {
+                name: 'Leprosy', released: 1988
+            }
+
+        ],
+    }
+
+    favoriteBand = `The ${favoriteBand.genre} band "${favoriteBand.name}" 
+    from the ${favoriteBand.nationality} has been active between ${favoriteBand.formed}-${favoriteBand.split}. 
+    The album ${favoriteBand.albums[0].name} was released in ${favoriteBand.albums[0].released} and 
+    ${favoriteBand.albums[1].name} in ${favoriteBand.albums[1].released}.`
+
+    // Don't edit the code below here!
+
+    const section = document.querySelector('section');
+    let para1 = document.createElement('p');
+    para1.textContent = favoriteBand;
+    section.appendChild(para1);
+</script>
+
+</html>
