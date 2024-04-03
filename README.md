@@ -1,4 +1,4 @@
-Exercício 1: Programa simples de tabuada.
+Exercício 1: Programa de tabuada.
 
 --- Exercícios MDN ---
 
