@@ -12,3 +12,5 @@ No html1 o código é recriado para que o método greeting seja definido apenas 
 Exercício 5: Objeto literal para representar minha banda favorita com css aplicado na imagem do logo da banda.
 
 Exercício 6: Alternando o background da div "box" com javascript ao clicar no botão, utlizando classList, contains e add/remove.
+
+Exercício 7: Utilização do preventDefault() método para previnir a execução do evento e do método stopPropagation() para encerrar a propagação.
