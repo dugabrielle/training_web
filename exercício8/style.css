@@ -1,0 +1,11 @@
+input, label {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.erro {
+    color: red;
+    font-weight: bold;
+    font-size: small;
+    opacity: .8;
+}
