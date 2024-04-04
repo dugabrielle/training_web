@@ -10,3 +10,5 @@ Exercício 4: Exercício de objeto para usar notação de colchetes na catName e
 No html1 o código é recriado para que o método greeting seja definido apenas um vez, utilizando um construtor.
 
 Exercício 5: Objeto literal para representar minha banda favorita com css aplicado na imagem do logo da banda.
+
+Exercício 6: Alternando o background da div "box" com javascript ao clicar no botão, que sempre altera a cor ao ser clicado.
