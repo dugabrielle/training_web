@@ -1,3 +1,15 @@
+document.querySelector('input[name="usuario"]').addEventListener('keyup', () => {
+    if(document.querySelector('input[name="usuario"] + span') !== null){
+        document.querySelector('input[name="usuario"] + span').remove();
+    }
+})
+
+document.querySelector('input[name="senha"]').addEventListener('keyup', () => {
+    if(document.querySelector('input[name="senha"] + span') !== null){
+        document.querySelector('input[name="senha"] + span').remove();
+    }
+})
+
 document.formulario.addEventListener('submit', (event) => {
 
     let usuario = event.target.usuario.value;
@@ -23,9 +35,6 @@ document.formulario.addEventListener('submit', (event) => {
 
     if(!submit){
         event.preventDefault();
-
-        setTimeout(() => {
-            document.querySelectorAll(".erro").forEach(e => e.remove())
-        }, 4000);
-    }
+}
 })
+
