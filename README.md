@@ -15,4 +15,4 @@ Exercício 6: Alternando o background da div "box" com javascript ao clicar no b
 
 Exercício 7: Utilização do preventDefault() método para previnir a execução do evento e do método stopPropagation() para encerrar a propagação.
 
-Exercício 8: Nesse formulário, foi utilizado o método insertAdjacentHTML() que adiciona um bloco html depois do final do input "afterend" que alerta o usuário sobre o preenchimento do formulário. O método setTimeout() chama a função após alguns milissegundos, neste caso, foi também utilziado o forEach para remover o alerta de cada elemento. 
+Exercício 8: Nesse formulário, foi utilizado o método insertAdjacentHTML() que adiciona um bloco html depois do final do input "afterend" que alerta o usuário sobre o preenchimento do formulário. O método setTimeout() chama a função após alguns milissegundos, neste caso, foi também utilizado o forEach para remover o alerta de cada elemento após 4 segundos. 
